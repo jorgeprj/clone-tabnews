@@ -1,23 +1,28 @@
 {
-  "name": "clone-tabnews",
-  "version": "1.0.0",
-  "description": "Implementação do https://www.tabnews.com.br/ para o https://curso.dev",
-  "homepage": "https://github.com/jorgeprj/clone-tabnews#readme",
-  "bugs": {
-    "url": "https://github.com/jorgeprj/clone-tabnews/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorgeprj/clone-tabnews.git"
-  },
-  "license": "MIT",
-  "author": "",
-  "scripts": {
-    "dev": "next dev"
-  },
-  "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+	"name": "clone-tabnews",
+	"version": "1.0.0",
+	"description": "Implementação do https://www.tabnews.com.br/ para o https://curso.dev",
+	"homepage": "https://github.com/jorgeprj/clone-tabnews#readme",
+	"bugs": {
+		"url": "https://github.com/jorgeprj/clone-tabnews/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jorgeprj/clone-tabnews.git"
+	},
+	"license": "MIT",
+	"author": "",
+	"scripts": {
+		"dev": "next dev",
+		"lint:check": "prettier --check .",
+		"lint:fix": "prettier --write ."
+	},
+	"dependencies": {
+		"next": "^13.1.6",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.7.4"
+	}
 }
